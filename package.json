@@ -21,7 +21,7 @@
 	"homepage": "https://github.com/CramerJ1470/pixar-repo#readme",
 	"client": "cd client && npm start",
 	"backend": "cd server &&npm start",
-	"dev": "concurrently \"npm run backend\" \"npm run client\"",
+	"start": "concurrently \"npm run backend\" \"npm run client\"",
 	"dependencies": {
 		"concurrently": "^7.2.0"
 	}
