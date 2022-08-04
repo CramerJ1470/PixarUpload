@@ -2,8 +2,8 @@ const env = process.env.NODE_ENV || "development";
 
 const config = {
 	development: {
-		port: process.env.PORT || 5000,
-		dbURL: "mongodb+srv://John27:Test123@cluster1.nymha.mongodb.net/Pixar1",
+		port: process.env.PORT || 8090,
+		dbURL: "mongodb+srv://<username>:<password>@cluster1.nymha.mongodb.net/<databaseNAme>",
 		authCookieName: "x-auth-token",
 	},
 };
